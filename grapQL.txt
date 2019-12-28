@@ -1,0 +1,14 @@
+grapQL: 
+  - is a query language for API, created by facebook
+  - contains server component and client component
+  - we use restAPI with specific endpoint for a long time
+  - one endpoint and ask what you want
+  - allow us query specific kind of data
+    exp: type Project {
+        name: String,
+        tagline: String,
+        contributors: [User]
+
+    }
+  - many way to implement grapQL like Apolo, grapQL-request, ... on both case server and client
+  - support tool: graphcms, graphcool
