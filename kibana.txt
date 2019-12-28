@@ -1,0 +1,12 @@
+- uncheck index contains time-based event if index not contains
+  menu:
+    - discover:
+      - view all data and search, choose index, query, fields
+      - view base on time field setting
+      - actions on each field, can save/open/save/share search like postman
+    - visualize:
+      - visualize data
+      - contains many type: pie, chart, ...
+    - management: config the index
+    - devtool: query elastic search by api
+

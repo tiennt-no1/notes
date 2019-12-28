@@ -1,0 +1,18 @@
+-> -> install and handson
+what is web-server
+
+  - web server: the computer tell which requested pages render
+  - to make computer to server, we have to install server software and connect it to the internet
+  - web server software: xampp, apache, nginx, microsoft iis, tornado, caddy
+
+what is nginx? 
+
+  - opensource
+  - reverse proxying, caching and load balancing
+  - provide HTTP
+
+nginx architecture 
+  - use Master Slave contains many workers
+  - support event-drivent
+  - each worker contain web application, contact with proxy cache
+  - 
